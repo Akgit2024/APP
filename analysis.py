@@ -908,7 +908,7 @@ def render_sidebar():
 
 def render_dashboard():
     """Render the main dashboard"""
-    st.title("🔍 Digital Forensic Correlation System")
+    st.title("🔍 Multi Source Event Sequence Reconstruction")
     st.markdown("---")
     
     if not st.session_state.analysis_complete:
