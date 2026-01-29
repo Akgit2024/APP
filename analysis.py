@@ -1244,7 +1244,7 @@ def main():
     
     # Footer
     st.markdown("---")
-    st.caption("🕵️ Digital Forensic Correlation System | For Investigative Use Only")
+    st.caption("🕵️ Evidence Reconstruction | For Investigative Use Only")
 
 if __name__ == "__main__":
     main()
