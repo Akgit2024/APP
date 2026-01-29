@@ -780,7 +780,7 @@ def export_forensic_report(timeline, sms_data, call_data, email_data, contact_co
     # Forensic Findings
     if timeline:
         report_content.append("")
-        report_content.append("FORENSIC FINDINGS")
+        report_content.append("FINDINGS")
         report_content.append("-" * 40)
         
         categories = Counter(event['forensic_tag'] for event in timeline)
@@ -805,7 +805,7 @@ def export_forensic_report(timeline, sms_data, call_data, email_data, contact_co
 
 def render_sidebar():
     """Render the sidebar with file uploads and controls"""
-    st.sidebar.title("🕵️ Forensic Analyzer")
+    st.sidebar.title("🕵️ Analyzer")
     st.sidebar.markdown("---")
     
     st.sidebar.subheader("1. Upload Data Files")
