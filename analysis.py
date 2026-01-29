@@ -21,7 +21,7 @@ import base64
 
 # Set page config
 st.set_page_config(
-    page_title="Digital Forensic Correlation System",
+    page_title="Multi Source Evidence Reconstruction",
     page_icon="🕵️",
     layout="wide",
     initial_sidebar_state="expanded"
